@@ -1,0 +1,134 @@
+
+.banner {
+	width: 100%;
+	height: 3.6rem;
+	padding: 1.45rem .3rem 0;
+	background: url('../images/t_banner.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.banner h1 {
+	margin-top: 0;
+	font-size: .36rem;
+	color: #fff;
+	margin-bottom: .25rem;
+}
+
+.t_nav_box {
+	background: #fff;
+	padding: .1rem .3rem .35rem;
+}
+
+.t_nav_box ul {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 0;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+.t_nav_box ul li {
+	width: 1.14rem;
+	height: .48rem;
+	margin-left: .3rem;
+	margin-top: .3rem;
+	background: #f8f8f8;
+	border: 1px solid #e9e9e9;
+	line-height: .48rem;
+	text-align: center;
+	font-size: .24rem;
+	color: #999;
+}
+.t_nav_box ul li:nth-child(5n+1) {
+	margin-left: 0;
+}
+.t_nav_box ul li.active {
+	color: #fff;
+	background: #2087ed;
+	border: 1px solid #2087ed;
+}
+
+/*列表*/
+.t_list_box {
+	padding: .15rem .3rem .45rem;
+	background: #f8f8f8;
+}
+.t_list_box ul {
+	padding-left: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.t_list_box ul li {
+	position: relative;
+	width: 50%;
+	margin-top: .3rem;
+}
+.t_list_box ul li img {
+	width: 100%;
+	border: 1px solid #e9e9e9;
+	border-bottom: none;
+}
+.t_list_box ul li span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	height: .6rem;
+	border: 1px solid #e9e9e9;
+	border-top: none;
+	background: #fff;
+	line-height: .6rem;
+	text-align: center;
+	font-size: .18rem;
+	color: #333;
+}
+.t_list_box ul li:nth-child(odd) {
+	padding-right: .15rem;
+}
+.t_list_box ul li:nth-child(even) {
+	padding-left: .15rem;
+}
+.t_list_box ul li:nth-child(odd) span {
+	right: .15rem;
+}
+.t_list_box ul li:nth-child(even) span {
+	left: .15rem;
+}
+
+.pages_box {
+	width: 100%;
+	height: 1.4rem;
+	background: #fff;
+}
+.pages_box ul {
+	height: 100%;
+	padding-left: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pages_box ul li:first-child,
+.pages_box ul li:last-child {
+	width: 1.5rem;
+	height: .48rem;
+	line-height: .48rem;
+	text-align: center;
+	color: #b2b2b2;
+	font-size: .22rem;
+	border: 1px solid #e5e5e5;
+	border-radius: .04rem;
+}
+.pages_box ul li:nth-child(2) {
+	margin: 0 .3rem;
+	color: #b2b2b2;
+	font-size: .26rem;
+	letter-spacing: 2px;
+}
+.pages_box ul li:nth-child(2) span.active {
+	color: #2087ed;
+}

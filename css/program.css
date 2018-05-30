@@ -1,0 +1,110 @@
+
+.banner {
+	width: 100%;
+	height: 3.6rem;
+	padding-top: 1.2rem;
+	background: url('../images/p_banner.png') no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.banner h1 {
+	margin-top: 0;
+	margin-bottom: .3rem; 
+	color: #fff;
+	font-size: .45rem;
+	text-align: center;
+}
+.banner span {
+	font-size: .2rem;
+}
+
+/*应用中心*/
+.application_hall {
+	padding-bottom: 1.2rem;
+}
+.application_hall ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+.application_cont {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: .4rem;
+}
+.application_cont .app_item:nth-child(odd) {
+	padding-right: .25rem;
+}
+.application_cont .app_item:nth-child(even) {
+	padding-left: .25rem;
+}
+.app_item {
+	position: relative;
+	width: 50%;
+	padding-top: .56rem;
+	text-align: center;
+	margin-top: .6rem;
+}
+.app_item > img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -.56rem; 
+	width: 1.12rem;
+	height: 1.12rem;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	border-radius: 100%;
+}
+.app_item > div {
+	background: #fff;
+	height: 2.8rem;
+	padding: .56rem .25rem .4rem;
+}
+.app_item > div h2 {
+	margin: .2rem auto;
+}
+.app_item > div span {
+	line-height: .3rem;
+	font-size: .2rem;
+	color: #666;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 4;
+	overflow: hidden;
+}
+.app_item a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+/*应用查看详情*/
+.view-detail {
+	display: block;
+	height: .83rem;
+	line-height: .83rem;
+	background: #55a7fe;
+	font-size: .26rem;
+	color: #fff;
+	text-align: center;
+}
+
+
+.app_bg_1 { background: #55a7fe; }
+.app_bg_2 { background: #f68481; }
+.app_bg_3 { background: #a8d56e; }
+.app_bg_4 { background: #ffc13e; }
+.app_bg_5 { background: #f9ce5c; }
+.app_bg_6 { background: #edbd8d; }
+.app_bg_7 { background: #f3708f; }
+.app_bg_8 { background: #a1d66d; }
+.app_bg_9 { background: #4dc092; }
+.app_bg_10 { background: #feb07a; }
+.app_bg_11 { background: #83bbbb; }
+.app_bg_12 { background: #f6cf65; }
+.app_bg_13 { background: #f85858; }
+.app_bg_14 { background: #96a4ff; }
+.app_bg_15 { background: #b497fc; }
+.app_bg_16 { background: #87b1ea; }
+.app_bg_17 { background: #ff9090; }
+.app_bg_18 { background: #51d793; }
